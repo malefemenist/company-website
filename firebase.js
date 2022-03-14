@@ -24,17 +24,6 @@ btn2.addEventListener("click",insertRecord);
 function insertRecord() {
   alert("Submit clicked!");
   
-  const nameBox = document.getElementById("fName");
-  const nameBoxValue = nameBox.value;
-  nameBox.value = "";
-  nameBox.focus();
-  
-  const surnameBox = document.getElementById("sName");
-  const surnameBoxValue = surnameBox.value;
-  surnameBox.value = "";
-  surnameBox.focus();
-
-  
   const emailBox = document.getElementById("email");
   const emailBoxValue = emailBox.value;
   emailBox.value = "";
@@ -47,6 +36,6 @@ function insertRecord() {
 
 
 const data = myDB.push();
-data.set({name:nameBoxValue, surname:surnameBoxValue, email:emailBoxValue, comment:commentBoxValue})
+data.set({email:emailBoxValue, comment:commentBoxValue})
 
 }
