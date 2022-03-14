@@ -65,10 +65,10 @@ a {
   display: block;
 }
 .text-center {
-  text-align: center;
+  text-align: ;
 }
 .footer-links {
-  list-style-type: none;
+  list-style-type: ;
 }
 @media {
   .footer-links li {
