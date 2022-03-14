@@ -12,7 +12,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100%;
 }
 .dropdown {
@@ -63,4 +63,21 @@ a {
 .right2 {
   margin-left: 650px;
   display: block;
+}
+.text-center {
+  text-align: center;
+}
+.footer-links {
+  list-style-type: none;
+}
+@media {
+  .footer-links li {
+    display: inline;
+  }
+} 
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
