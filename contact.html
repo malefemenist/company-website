@@ -1,1 +1,69 @@
-contact
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+body  {background-color: #4f4f4f;
+  font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;     
+        box-sizing: border-box;   
+    }  
+
+        
+     
+
+</style>  
+  <p>
+          Use this to contact us
+        </p>
+  <input type="text" placeholder="Name" id="fName" />
+
+        <br />
+        <br />
+
+        <input type="text" placeholder="Surname" id="sName" />
+
+        <br />
+              
+        <br />
+
+
+        <input type="text" placeholder="Email" id="email" />
+        <br />
+        <br />
+            
+        <br />
+ <div align = "center" >
+        <textarea  rows="10" cols="200" placeholder=" Comment" id="comment"></textarea>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <button type="submit" id="submit">Submit Your Data</button>
+
+        <!-- Firebase HTML Code -->
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase.js"></script>
+
+        <!-- Our local script that submits our data to Firebase -->
+        <script src="firebase.js"></script>
+    </head>
+</html>
