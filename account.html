@@ -24,9 +24,7 @@ button {
         display: inline-block;     
         box-sizing: border-box;   
     }  
- button:hover {   
-        opacity: 0.7;   
-    }   
+
         
      
  .container {   
@@ -34,20 +32,29 @@ button {
         background-color: ;  
     }   
 </style>   
+  
 </head>    
-<body>    
-    <center> <h1> Account Login Form </h1> </center>   
-    <form>  
-        <div class="container">   
-            <label>Username : </label>   
-            <input id="username" placeholder="Enter Email (sample@gmail.com)" type="text" required/>  
-            <label>Password : </label>   
-             <input type="password" placeholder="Enter Password (password)" id="password" required/>
-<!--             <button type="submit">Login</button>    -->
-          <button class="button" onclick="onSubmit()">Login</button>
-
-        </div>   
-    </form>     
-</body>  
+  <!DOCTYPE html>
+<html>
+  <head>
+    <div class="center">
+      <br />
+      <br />
+      <label>Email:</label>
+      <input id="username" placeholder="Enter Email (johndoe@gmail.com)" type="text"/>
+      <!–– makes all input lowercase and assigns a variable -->
+      <br />
+      <br />
+      <label>Passcode:</label>
+      <input type="password" placeholder="Enter Password (123)" id="password" />
+      <br />
+      <button class="button" onclick="onSubmit()">
+        Login
+      </button>
+    </div>
+  </head>
+</html>
+  
+  
   <script src="account.js"> </script>
-</html>  
+</html>
