@@ -1,143 +1,141 @@
-<html>   
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">  
- 
-<style>   
-Body {  
-  font-family: Calibri, Helvetica, sans-serif;  
-  background-color: #4f4f4f;  
-}  
-button {   
-       background-color: #4CAF50;   
-       width: 100%;  
-        color: black;   
-        padding: 15px;   
-        margin: 10px 0px;   
-        border: none;   
-        cursor: pointer;   
-         }   
-   
- input[type=text], input[type=password] {   
-        width: 100%;   
-        margin: 8px 0;  
-        padding: 12px 20px;   
-        display: inline-block;     
-        box-sizing: border-box;   
-    }  
-
-        
-     
- .container {   
-        padding: 25px;   
-        background-color: ;  
-    }   
-</style>   
-  <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <link
-      rel="icon"
-      href="https://cdn.glitch.global/9067e716-6662-4c46-a7b3-42707544c5aa/small-music-note-icon-14.png?v=1647285359972"
-      type="image/png"
-    />
-    <!-- sets the tab icon -->
-    <title>Microbit Music Kit</title>
-    <!-- sets the title of the tab -->
-    <body style="background-color: #4f4f4f">
-      <!-- sets the background colour -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <nav class="navbar">
-        <!-- creates a navbar with class navbar detailed in my css -->
-        <ul class="navbar-nav">
-          <!-- creates an unordered list with clas navbar-nav -->
-          <a href="index.html" class="nav-item left2">
-            Home
-            <!-- creates a href(link to another webpage) and titles it "Home"-->
-          </a>
-          <a href="product.html" class="nav-item"> Product </a>
-          <!-- creates a href(link to another webpage) and titles it "Product"-->
+    <style>
+      Body {
+        font-family: Calibri, Helvetica, sans-serif;
+        background-color: #4f4f4f;
+      }
+      button {
+        background-color: #4caf50;
+        width: 100%;
+        color: black;
+        padding: 15px;
+        margin: 10px 0px;
+        border: none;
+        cursor: pointer;
+      }
 
-          <li class="nav-item has-dropdown">
-            <!-- creates a new list with class dropdown -->
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        box-sizing: border-box;
+      }
 
-            <a href="#">Services 🔽</a>
-            <!-- href with services title for dropdown -->
+      .container {
+        padding: 25px;
+        background-color: ;
+      }
+    </style>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="https://cdn.glitch.global/9067e716-6662-4c46-a7b3-42707544c5aa/small-music-note-icon-14.png?v=1647285359972"
+          type="image/png"
+        />
+        <!-- sets the tab icon -->
+        <title>Microbit light sensor</title>
+        <!-- sets the title of the tab -->
+        <body style="background-color: #4f4f4f">
+          <!-- sets the background colour -->
 
-            <ul class="dropdown">
-              <!-- creates an unordered list with class drop down which details oall relevant links -->
+          <nav class="navbar">
+            <!-- creates a navbar with class navbar detailed in my css -->
+            <ul class="navbar-nav">
+              <!-- creates an unordered list with clas navbar-nav -->
+              <a href="index.html" class="nav-item left2">
+                Home
+                <!-- creates a href(link to another webpage) and titles it "Home"-->
+              </a>
+              <a href="product.html" class="nav-item"> Product </a>
+              <!-- creates a href(link to another webpage) and titles it "Product"-->
 
-              <li class="dropdown-item">
-                <!-- creates a list for the dropdown list -->
-                <a href="faq.html">FAQ</a>
-                <!-- creates a href to faq -->
+              <li class="nav-item has-dropdown">
+                <!-- creates a new list with class dropdown -->
+
+                <a href="#">Services 🔽</a>
+                <!-- href with services title for dropdown -->
+
+                <ul class="dropdown">
+                  <!-- creates an unordered list with class drop down which details oall relevant links -->
+
+                  <li class="dropdown-item">
+                    <!-- creates a list for the dropdown list -->
+                    <a href="faq.html">FAQ</a>
+                    <!-- creates a href to faq -->
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="contact.html">Contact</a>
+                    <!-- creates a href to contact -->
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="info.html">Information</a>
+                    <!-- creates a href to information -->
+                  </li>
+                </ul>
               </li>
-              <li class="dropdown-item">
-                <a href="contact.html">Contact</a>
-                <!-- creates a href to contact -->
-              </li>
-              <li class="dropdown-item">
-                <a href="info.html">Information</a>
-                <!-- creates a href to information -->
-              </li>
+              <!-- closes all lists -->
+
+              <a href="account.html" class="nav-item"> Account </a>
+              <!-- creates a href(link to another webpage) and titles it "acount"-->
             </ul>
-          </li>
-          <!-- closes all lists -->
+          </nav>
+        </body>
+        
+      </head>
+    </html>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Refereances the style sheet bringing css to the html -->
+    <br />
+    <br />
 
-          <a href="account.html" class="nav-item"> Account </a>
-          <!-- creates a href(link to another webpage) and titles it "acount"-->
-        </ul>
-      </nav>
-    </body>
-  </head>
-</html>
-<link rel="stylesheet" href="style.css" />
-<!-- Refereances the style sheet bringing css to the html -->
-<br/><br/>
-  
-<footer id="footer">
-  <!-- creates a footer -->
-  <p>..........Copyright &copy; Music.ltd</p>
-  <!-- creates a paragraph -->
-  <ul class="footer-links">
-    <!-- unordered list with class footer links -->
-    <li>
-      <a href="info.html">.Info</a>
-      <!-- list with href about -->
-    </li>
-    <li>
-      <a href="product.html">.Product</a>
-      <!-- list with href product -->
-    </li>
-    <li>
-      <a href="contact.html">.Contact</a>
-      <!-- list with href contact -->
-    </li>
-  </ul>
-</footer>
+    <footer id="footer">
+      <!-- creates a footer -->
+      <p>..........Copyright &copy; Music.ltd</p>
+      <!-- creates a paragraph -->
+      <ul class="footer-links">
+        <!-- unordered list with class footer links -->
+        <li>
+          <a href="info.html">.Info</a>
+          <!-- list with href about -->
+        </li>
+        <li>
+          <a href="product.html">.Product</a>
+          <!-- list with href product -->
+        </li>
+        <li>
+          <a href="contact.html">.Contact</a>
+          <!-- list with href contact -->
+        </li>
+      </ul>
+    </footer>
 
-<!-- closes footer -->
-
-
+    <!-- closes footer -->
 
     <div class="center">
       <br />
       <br />
       <label>Email:</label>
-      <input id="username" placeholder="Enter Email (johndoe@gmail.com)" type="text"/>
+      <input
+        id="username"
+        placeholder="Enter Email (johndoe@gmail.com)"
+        type="text"
+      />
       <!–– makes all input lowercase and assigns a variable -->
       <br />
       <br />
       <label>Passcode:</label>
       <input type="password" placeholder="Enter Password (123)" id="password" />
       <br />
-      <button class="button" onclick="onSubmit()">
-        Login
-      </button>
+      <button class="button" onclick="onSubmit()">Login</button>
     </div>
 
-  
-  
-  <script src="account.js"> </script>
-
+    <script src="account.js"></script>
   </head>
 </html>
